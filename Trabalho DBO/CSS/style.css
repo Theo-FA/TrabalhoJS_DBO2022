@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap%27);
+body{
+        background-color: black;
+}
+.log{
+    float: left;
+    border: 2px black solid;
+    height: 430px;
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 10%;
+    text-align: center;
+    background-color: white;
+
+}
+#login{
+    margin-top: 25%;
+}
+.reg{
+    float: left;
+    border: 2px black solid;
+    height: 430px;
+    width: 400px;
+    margin-top: 10%;
+    text-align: center; 
+    background-color: white;
+}

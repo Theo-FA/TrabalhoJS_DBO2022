@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../CSS/style-geral.css">
+<link rel="icon" href="../img/stylleto.png">
+<title>Loja Stilleto</title>
+</head>
+<body>
+    <script src="../js/h-menu.js" defer></script>
+    <header>
+        <div class="logo">
+            <a href="../HTML/index-home.html">
+                <img src="../img/logo.png" alt="logo da Stilleto" id="logo">
+            </a>
+        </div>      
+    <input type="search" placeholder="pesquisar produtos..." id="search">
+    <a href="../HTML/index-login.html" id="logincadastro">Login/Cadastre-se</a>
+    <div class="ret">
+        <div class="ret1"></div>
+        <div class="ret2"></div>
+        <div class="ret3"></div>
+        </div>
+        <div class="resp">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+</header>
+<nav class="nav-bar">
+    <a href="../HTML/index-home.html" id="h">Home</a>
+    <a href="../HTML/index-ofertas.html" id="o">Ofertas</a>
+    <a href="../HTML/index-categorias.html" id="c">Categorias</a>
+    <a href="../HTML/index-bandas.html" id="b">Bandas</a>
+    <a href="../HTML/index-galeria.html" id="g">Galeria</a>
+    <a href="../HTML/index-anim.html" id="a">Animação</a>
+</nav>
+<main class="formulario">
+    <h1>Formulário</h1>
+    <form id="form" name="formulario">
+        <label for="cname" id="label1"><b>Nome</b></label><br>
+        <input type="text" placeholder="Insira seu nome completo" name="cname" id="cname" class="norm">
+        <br>
+        <div class="erro" id="auxN">Campo Incorreto</div>
+        <br><br>
+        <label for="cpf" id="label2"><b>CPF</b></label><br>
+        <input type="number" placeholder="Insira seu CPF" name="cpf" id="cpf" class="norm">
+        <br>
+        <div class="erro" id="auxC">Campo Incorreto</div>
+        <br><br>
+        <label for="psw" id="label3"><b>Senha</b></label><br>
+        <input type="password" placeholder="Insira sua senha" name="senha" id="psw" class="norm">
+        <br>
+        <div class="erro" id="auxP">Campo Incorreto</div>
+        <br><br>
+        <label for="pswc" id="conf"><b>Confirme sua Senha</b></label><br>
+        <input type="password" placeholder="Confirme sua senha" name="senha2" id="pswc" class="norm">
+        <br>
+        <div class="erro" id="auxP2">Campo Incorreto</div>
+        <br><br><br>
+        <button type="button" id="descarte" onclick="return validarNome(), validarCPF(), validarSenha(), validarSenha2(), fase2()" class="cont">Continuar</button>
+    </form>
+</main>
+<footer>
+    <div class="f1">
+    
+            <h4>Contato</h4><br>
+            email:xyz@xyzmail.com<br>
+            Fone/Fax: (xx)9xx4x-xx8x<br>
+            Redes Sociais: @StilletoShop<br>
+    
+    </div>
+    <div class="f2">
+    
+            <h4>Institucional</h4><br>
+            CNPJ: xxxxxxxxxx<br>
+            Sobre nós<br>
+            História<br>
+    
+    </div>
+    <div class="f3">
+    
+            <h4>Localidade</h4>
+            Rio Grande, RS<br>
+            Endereço: Rua blablabla, nºxxx<br>
+            CEP: xxxxxxxxx<br>
+        
+    </div>
+</footer>
+</body>
+</html>

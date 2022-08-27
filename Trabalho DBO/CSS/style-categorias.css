@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap%27);
+header{
+      border: 2px rgb(0, 0, 0) solid;
+      width:auto;
+      min-width:96.3%;
+      margin: 0;   
+      height:110px;
+      background-color:rgb(0, 0, 0);
+      color: orangered;
+    }
+  .logo{
+    width: fit-content;         
+    border: 2px rgb(0, 0, 0) solid;
+    margin-left: 10%;
+    background-color:rgba(0, 0, 0, 0.952);        
+    font-size:70px;
+    font-family:'My Soul', 'cursive';
+    }
+    body{
+        background-color: black;
+    }
+    #search{
+        position: relative;
+        left:25%;
+        bottom: 60%;
+        height: 40px;
+        width: 65%;
+    } 
+a{
+    color: inherit;
+}           
+#texto_logo{float: right; color: orangered;}
+#h{margin-left: 12%;}
+#o{margin-left: 15%;}
+#c{margin-left: 15%;}
+#b{margin-left: 15%;}
+#g{margin-left: 15%;}
+#logincadastro{
+    float: right;
+    margin-right: 50px;
+    margin-top: -50px;
+}
+nav{
+    border: 2px orangered solid;
+    padding-top: 5px;
+    height: 30px;
+    min-width:96.3%;
+    width: auto;
+    margin: 0;   
+    background-color: orangered;
+    color: black;
+}
+main{
+    background-color: rgb(160, 160, 160);
+    border: 0px rgb(255, 255, 255) solid;
+    height: 540px;
+    width: auto;
+    min-width:96.3%; 
+}
+.cat1{
+    border:4px black solid;
+    width:400px;
+    height:500px;
+    position:relative;
+    top:2%;
+    left:2%;
+}
+h1{
+    text-align:center;
+    font-family:'Playfair Display', serif;
+}
+.cat2{
+    border:4px black solid;
+    width:400px;
+    height:500px;
+    position:relative;
+    left:35%;
+    top:-92%;
+}
+.cat3{
+    border:4px black solid;
+    width:400px;
+    height:500px;
+    position:relative;
+    left:68%;
+    top:-186.2%
+}
+footer{
+    border: 1px black solid;
+    background-color: black;
+    color: orangered;
+    height:150px;
+    min-width: 96.3%;
+    width:auto;
+    margin: 0;  
+    font-family: 'Playfair Display', serif;
+}
+.f1{
+    float: left;
+    height: 150px;
+    width: 34%;
+    text-align: center;
+}
+.f2{
+    float: left;
+    height: 150px;
+    width: 31%;
+    text-align: center;
+}
+.f3{
+    float: left;
+    height: 150px;
+    width: 34%;
+    text-align: center;
+}
+.log{
+    float: left;
+    border: 2px black solid;
+    height: 430px;
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 10%;
+    text-align: center;
+    background-color: white;
+
+}
+#login{
+    margin-top: 25%;
+}
+.reg{
+    float: left;
+    border: 2px black solid;
+    height: 430px;
+    width: 400px;
+    margin-top: 10%;
+    text-align: center; 
+    background-color: white;
+}
+.destaques{
+    border: 0px white solid;
+    position: relative;
+    width: fit-content;
+    top: 7%;
+}
